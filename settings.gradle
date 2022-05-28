@@ -1,2 +1,10 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/milestone' }
+        maven { url 'https://repo.spring.io/snapshot' }
+        maven { url 'https://jitpack.io' }
+        gradlePluginPortal()
+    }
+}
 rootProject.name = 'Java_HyperSkill_Topics'
 

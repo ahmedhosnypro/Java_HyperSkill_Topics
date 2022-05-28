@@ -41,8 +41,10 @@ public class DrawingBasicShapes extends JFrame implements MouseMotionListener {
         g.fillOval(250, 250, 50, 70);
         g.drawOval(50, 50, 50, 70);
 
+        g.setColor(Color.MAGENTA);
         g.drawLine(100, 70, 200, 200);
 
+        g.setColor(Color.pink);
         g.drawRect(300, 300, 100, 80);
         g.fillRect(50, 300, 100, 80);
 
@@ -51,6 +53,9 @@ public class DrawingBasicShapes extends JFrame implements MouseMotionListener {
         }
         g.setColor(Color.RED);
         g.fillRect(rectX, rectY, 50, 50);
+
+        g.setColor(Color.gray);
+        g.fillPolygon(new int[]{10, 20, 53, 84, 55}, new int[]{15, 23, 37, 46, 75}, 4);
     }
 
     @Override
