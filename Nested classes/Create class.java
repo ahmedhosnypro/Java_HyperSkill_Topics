@@ -1,7 +1,6 @@
-class StringOperations {
 
-    // create static nested class EngString
-    static class EngString{
+class StringOperations {
+    static class EngString {
         boolean isEnglishLang;
         String string;
 

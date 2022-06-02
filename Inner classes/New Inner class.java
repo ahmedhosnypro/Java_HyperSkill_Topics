@@ -1,9 +1,7 @@
+
 class Vehicle {
 
     private String name;
-
-    // create constructor
-
 
     public Vehicle(String name) {
         this.name = name;
@@ -17,7 +15,6 @@ class Vehicle {
 
     }
 
-    // create class Body
     class Body {
         String color;
 
@@ -25,13 +22,12 @@ class Vehicle {
             this.color = color;
         }
 
-        void printColor(){
+        void printColor() {
             System.out.println("Vehicle " + name + " has " + color + " body.");
         }
     }
 }
 
-// this code should work
 class EnjoyVehicle {
 
     public static void main(String[] args) {

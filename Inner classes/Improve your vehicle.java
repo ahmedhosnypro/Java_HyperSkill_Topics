@@ -1,9 +1,7 @@
+
 class Vehicle {
 
     private String name;
-
-    // create constructor
-
 
     public Vehicle(String name) {
         this.name = name;
@@ -11,9 +9,7 @@ class Vehicle {
 
     class Engine {
 
-        // add field horsePower
         int horsePower;
-        // create constructor
 
         public Engine(int horsePower) {
             this.horsePower = horsePower;
@@ -23,20 +19,18 @@ class Vehicle {
             System.out.println("RRRrrrrrrr....");
         }
 
-        // create method printHorsePower()
-        void printHorsePower(){
+        void printHorsePower() {
             System.out.println("Vehicle " + Vehicle.this.name + " has " + this.horsePower + " horsepower.");
         }
     }
 }
 
-// this code should work
 class EnjoyVehicle {
 
     public static void main(String[] args) {
-
+        int horsePower = 15;
         Vehicle vehicle = new Vehicle("Dixi");
-        Vehicle.Engine engine = vehicle.new Engine(15);
+        Vehicle.Engine engine = vehicle.new Engine(horsePower);
         engine.printHorsePower();
     }
 }

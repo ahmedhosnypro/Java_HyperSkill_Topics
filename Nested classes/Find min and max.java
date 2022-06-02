@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 class ArrayCalc {
 
-    // static nested class
     public static class MinMaxPair {
         private int min;
         private int max;
@@ -22,10 +21,8 @@ class ArrayCalc {
         }
     }
 
-    // find min and max elements
     public static MinMaxPair findMinMax(int[] array) {
 
-        // write your code
         Arrays.sort(array);
 
         return new MinMaxPair(array[0], array[array.length - 1]);
@@ -37,7 +34,6 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // input array 
         int[] array = new int[10];
         for (int i = 0; i < 10; i++) {
             array[i] = scanner.nextInt();

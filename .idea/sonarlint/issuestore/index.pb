@@ -41,3 +41,33 @@ S
 #Parameterized test/Palindromes.java,7\7\776a98a58bd66c541918821070bb9d5991706d8c
 [
 +Choosing the right collection/Multiset.java,7\d\7de3ecf004be41c08e6be3a3c18ed10542f2536b
+]
+-src/main/java/examples/swing/MenuExample.java,4\6\46664c237447998f415ae38781ee3ab1eadf6b0a
+R
+"src/test/java/CalculatorTests.java,4\7\47c829a3023279458b3399653db89d1ff82cbee8
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+S
+#src/main/java/spring/Addresses.java,c\7\c765a2197e9943b347bfda818158a08dc65e144e
+Q
+!src/main/java/spring/Company.java,c\a\cac41dbc0133f7fe8a87aad4fcdceaea6ac1aa43
+R
+"src/main/java/spring/Customer.java,7\b\7bc1e3f881ced2f2f63be102a8e061c2b704c9fe
+V
+&src/main/java/file/deleteOldFiles.java,1\3\131c0a29ce2d27616ab0ad2ee31606a860d84ac9
+_
+/src/main/java/spring/DemoSpringApplication.java,c\b\cb9bc7ba51db6e34fd9da75d02b40a3548ea35db
+d
+4src/main/java/examples/swing/DrawingBasicShapes.java,5\9\594424ad5347b0ad132f034191f8733d4bcaa775
+P
+ src/main/java/file/FileList.java,1\9\190b3e93af8d7c5352472f32119c49edea8acf9d
+V
+&src/main/java/examples/swing/Oval.java,1\7\1781af5fce5073857f74e9eeeed9ab3c57454b83
+[
++src/main/java/spring/PasswordGenerator.java,2\0\20c29b4dbb2cbcaf04a2c2f4a411669d0e215a1b
+P
+ src/main/java/spring/Runner.java,c\e\ceaa86dbcf7f11ec4f3f74c0b0d4d00ca45aa994

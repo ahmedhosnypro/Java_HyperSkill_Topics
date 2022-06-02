@@ -1,3 +1,4 @@
+
 class Apple {
 
     private String appleVariety;
@@ -8,14 +9,11 @@ class Apple {
 
     void cutApple() {
 
-        // create local inner class Knife
-        class Knife{
-            // create method makeSlices()
-            void makeSlices(){
+        class Knife {
+            void makeSlices() {
                 System.out.println("Apple " + appleVariety + " is ready to be eaten!");
             }
         }
-
 
 
         Knife knife = new Knife();
