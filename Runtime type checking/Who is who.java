@@ -1,15 +1,18 @@
-import java.util.Arrays;        
+import java.util.Arrays;
 
 class Determiner {
 
     public static void determineWhoIsWho(Employee[] employees) {
         for (Employee employee : employees) {
-            System.out.println("EMP");
+            switch (employee.getClass().getSimpleName()) {
+                case "Developer" -> System.out.println("DEV");
+                case "DataAnalyst" -> System.out.println("DA");
+                default -> System.out.println("EMP");
+            }
         }
     }
 }
 
-// Don't change the code below
 class Employee {
 
     protected String name;

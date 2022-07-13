@@ -1,0 +1,13 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÀÎ”‘
+O
+java:S3400"9Remove this method and declare a constant for this value.(¿Œ­æ
+W
+java:S1172"ARemove these unused method parameters "departments", "threshold".(Ú»Äº
+n
+java:S6206"SRefactor this class declaration to use 'record Employee(String name, Long salary)'.(ü©¤­ýÿÿÿÿ
+…
+java:S6206,"jRefactor this class declaration to use 'record Department(String name, String code, List<...> employees)'.(¶„ª­üÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

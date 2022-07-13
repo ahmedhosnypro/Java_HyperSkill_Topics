@@ -1,0 +1,9 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÚÌŠ
+a
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Û¡Í`
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(Ì¹ó¼ûÿÿÿÿ
+U	java:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ

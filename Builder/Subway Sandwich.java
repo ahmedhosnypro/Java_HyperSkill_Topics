@@ -71,7 +71,7 @@ class TestDrive {
         String bun = scanner.nextLine();
         /* How much salad would like to add? */
         int salad = Integer.valueOf(scanner.nextLine());
-        /* How much cheese would like to add? */ 
+        /* How much cheese would like to add? */
         int cheese = Integer.valueOf(scanner.nextLine());
         /* How much cucumber would like to add? */
         int cucumber = Integer.valueOf(scanner.nextLine());
@@ -82,7 +82,7 @@ class TestDrive {
 
         builder.addBun(bun).addSalad(salad).addCheese(cheese).addCucumber(cucumber).addHam(ham);
 
-        Sandwich sandwich = builder.build();;
+        Sandwich sandwich = builder.build();
 
         System.out.println(sandwich);
         scanner.close();

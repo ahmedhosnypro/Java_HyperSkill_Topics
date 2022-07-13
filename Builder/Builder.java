@@ -124,6 +124,5 @@ class Main {
         }
         System.out.println("Geek " + geekName + " created.");
         System.out.println(geek);
-
     }
 }
