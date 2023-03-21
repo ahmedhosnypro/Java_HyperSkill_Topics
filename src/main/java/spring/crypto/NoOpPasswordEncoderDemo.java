@@ -5,10 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-public class PasswordEncoderDemo implements CommandLineRunner {
+public class NoOpPasswordEncoderDemo implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(PasswordEncoderDemo.class);
+        SpringApplication.run(NoOpPasswordEncoderDemo.class);
     }
     @Override
     public void run(String... args) throws Exception {

@@ -4,17 +4,18 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.encrypt.BytesEncryptor;
 import org.springframework.security.crypto.encrypt.Encryptors;
 
 @SpringBootApplication
-public class BytesEncryptor implements CommandLineRunner {
+public class BytesEncryptorDemo implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(BytesEncryptor.class);
+        SpringApplication.run(BytesEncryptorDemo.class);
     }
 
     @Bean
-    public org.springframework.security.crypto.encrypt.BytesEncryptor aesBytesEncryptor() {
+    public BytesEncryptor aesBytesEncryptor() {
         String password = "hackme"; // should be kept in a secure place and not be shared
         String salt = "8560b4f4b3"; // should be hex-encoded with even number of chars
         return Encryptors.standard(password, salt);
@@ -22,7 +23,7 @@ public class BytesEncryptor implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        org.springframework.security.crypto.encrypt.BytesEncryptor bytesEncryptor = aesBytesEncryptor();
+        BytesEncryptor bytesEncryptor = aesBytesEncryptor();
 
         byte[] inputData = {104, 121, 112, 101, 114, 115, 107, 105, 108, 108};
         byte[] encryptedData = bytesEncryptor.encrypt(inputData);

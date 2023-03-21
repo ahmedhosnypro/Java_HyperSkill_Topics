@@ -1,4 +1,4 @@
-package design.pattern;
+package design.pattern.behavioral;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package design.pattern.decorator.coffee;
+package design.pattern.structural.decorator.coffee;
 
 import java.util.Locale;
 

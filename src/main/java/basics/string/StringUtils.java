@@ -1,3 +1,4 @@
+package basics.string;
 
 class StringUtils {
     private StringUtils() {

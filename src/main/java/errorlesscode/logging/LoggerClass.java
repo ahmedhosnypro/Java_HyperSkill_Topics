@@ -1,3 +1,5 @@
+package errorlesscode.logging;
+
 import multithreading.basics.Main;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package threads;
+package multithreading.basics;
 
 class Runner{
     public static void main(String[] args) throws InterruptedException {

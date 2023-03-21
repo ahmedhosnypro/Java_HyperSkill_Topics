@@ -1,0 +1,15 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(€á€‹þÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+P
+java:S1854"5Remove this useless assignment to local variable "t".(€á€‹þÿÿÿÿ
+A
+java:S1481"&Remove this unused "t" local variable.(€á€‹þÿÿÿÿ
+W
+java:S1610"<Convert the abstract class "HumanThought" into an interface.(·ÏéŸùÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(ÃÍªàþÿÿÿÿ
+P
+java:S11185":Add a private constructor to hide the implicit public one.(‡çïÑ

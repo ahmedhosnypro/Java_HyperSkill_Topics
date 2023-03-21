@@ -1,7 +1,0 @@
-description = "A basic Gradle project"
-
-task helloGradle {
-    doLast {
-        println 'Hello, Gradle!'
-    }
-}

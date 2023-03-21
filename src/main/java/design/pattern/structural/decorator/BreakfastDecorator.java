@@ -1,4 +1,4 @@
-package design.pattern.decorator;
+package design.pattern.structural.decorator;
 
 class TestDrive {
     public static void main(String[] args) {

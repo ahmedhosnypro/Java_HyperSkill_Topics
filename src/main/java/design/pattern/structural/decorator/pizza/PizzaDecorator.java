@@ -1,4 +1,4 @@
-package design.pattern.decorator.pizza;
+package design.pattern.structural.decorator.pizza;
 
 import java.util.Locale;
 

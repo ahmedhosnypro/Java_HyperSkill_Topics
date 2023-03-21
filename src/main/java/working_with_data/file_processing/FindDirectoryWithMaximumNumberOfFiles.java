@@ -1,7 +1,9 @@
+package working_with_data.file_processing;
+
 import java.io.File;
 import java.util.Scanner;
 
-class findDirectoryWithMaximumNumberOfFiles{
+class FindDirectoryWithMaximumNumberOfFiles {
     static int maxNOF = 0;
     static String MNOF_Directory = null;
     static int currentNOF = 0;

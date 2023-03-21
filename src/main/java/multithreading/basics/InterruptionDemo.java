@@ -1,4 +1,4 @@
-package threads;
+package multithreading.basics;
 
 public class InterruptionDemo {
     public static void main(String[] args) throws InterruptedException {

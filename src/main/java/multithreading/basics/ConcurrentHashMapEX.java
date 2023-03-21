@@ -1,4 +1,4 @@
-package threads;
+package multithreading.basics;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

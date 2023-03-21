@@ -1,4 +1,4 @@
-package threads;
+package multithreading.basics;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

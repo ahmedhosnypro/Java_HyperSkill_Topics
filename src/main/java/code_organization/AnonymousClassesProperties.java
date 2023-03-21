@@ -1,3 +1,5 @@
+package code_organization;
+
 import java.util.Scanner;
 
 public class AnonymousClassesProperties {
@@ -24,7 +26,7 @@ abstract class HumanThought {
 
 class Human {
     public void takeMilkshake() {
-        // creation of anonymous class by inheriting from class HumanThought
+        // creation of anonymous class by inheriting from class code_organization.HumanThought
         HumanThought thought = new HumanThought() {
             public void print() {
                 System.out.println("What to take? Chocolate or strawberry milkshake..");

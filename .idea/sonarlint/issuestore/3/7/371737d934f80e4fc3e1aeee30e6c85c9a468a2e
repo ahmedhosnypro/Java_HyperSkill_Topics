@@ -1,0 +1,18 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô×—¨
+d
+java:S2259"IA "NullPointerException" could be thrown; "soundtracks" is nullable here.(ç „ºùÿÿÿÿ
+^
+java:S2259"CA "NullPointerException" could be thrown; "Music" is nullable here.(÷˜â“ıÿÿÿÿ
+e
+java:S2259"OA "NullPointerException" could be thrown; "helloWorldProject" is nullable here.(Ä””è
+U
+java:S1118":Add a private constructor to hide the implicit public one.(‚›©ÿÿÿÿÿ
+U
+java:S1854":Remove this useless assignment to local variable "length".(ç „ºùÿÿÿÿ
+Q
+java:S1854";Remove this useless assignment to local variable "reviews".(Ä””è
+B
+java:S1481",Remove this unused "reviews" local variable.(Ä””è
+F
+java:S1481"+Remove this unused "length" local variable.(ç „ºùÿÿÿÿ

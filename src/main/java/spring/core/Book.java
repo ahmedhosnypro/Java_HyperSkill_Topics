@@ -1,2 +1,8 @@
-package spring.core;public class Book {
+package spring.core;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Book {
+
 }
